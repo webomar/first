@@ -1,4 +1,4 @@
-from django.contrib import admi
+from django.contrib import admin
 
 # Register your models here.
 from .models import Question, rClass,Choice
