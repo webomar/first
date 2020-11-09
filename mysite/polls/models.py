@@ -26,3 +26,5 @@ class Choice(models.Model):
 
 class rClass(models.Model):
     strr = models.TextField()
+    def __str__(self):
+        return self.strr
